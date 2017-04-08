@@ -73,7 +73,11 @@ abstract class Services {
     const Delete_Message = 'delete_message';
     const Add_Companies = 'add_companies';
 
-
+    const Add_Contacts = 'add_contacts';
+    const Add_Contact = 'add_contact';
+    const Delete_Contacts = 'delete_contacts';
+    const Delete_Contact = 'delete_contact';
+    const update_Contact= 'update_contact';
 
     const Authenticate_User = 'auth';
     const Sign_Up_User = 'sign_up';
@@ -163,6 +167,10 @@ function processRequest($request){
         }elseif ($request[ReqFormat::SERVICE] == Services::Get_Companies) {
             $companies = array();
             $companies[Results::All_COMPANIES] = $myDatabase->getCompaniesByUser($mainUser);
+            $api_Response[Response::RESPONSE] = $companies;
+        }elseif ($request[ReqFormat::SERVICE] == Services::Add_Contact){
+            $companies = array();
+            $companies[Results::All_COMPANIES] = $myDatabase->getCompaniesDevicesByUser($mainUser);
             $api_Response[Response::RESPONSE] = $companies;
         }elseif ($request[ReqFormat::SERVICE] == Services::Get_Companies_Devices){
             $companies = array();

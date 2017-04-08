@@ -11,7 +11,106 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="DataBase.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Private/DataBase.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="246">
+              <caret line="60" column="5" lean-forward="false" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
+              <folding>
+                <marker date="1491672098076" expanded="true" signature="1942:1993" ph="INSERT INTO contact... " />
+                <marker date="1491672098076" expanded="true" signature="1942:2008" ph="INSERT INTO contact... " />
+                <marker date="1491672098076" expanded="true" signature="2487:2520" ph="DELETE FROM " />
+                <marker date="1491672098076" expanded="true" signature="2487:2521" ph="DELETE FROM " />
+                <marker date="1491672098076" expanded="true" signature="2487:2522" ph="DELETE FROM " />
+                <marker date="1491672098076" expanded="true" signature="2993:3021" ph="DELETE FROM " />
+                <marker date="1491672098076" expanded="true" signature="3575:3703" ph="INSERT INTO Users... " />
+                <marker date="1491672098076" expanded="true" signature="4462:4558" ph="SELECT * FRO... Users" />
+                <marker date="1491672098076" expanded="true" signature="5196:5228" ph="SELECT * FRO... Users" />
+                <marker date="1491672098076" expanded="true" signature="5652:5837" ph="INSERT INTO Messages... " />
+                <marker date="1491672098076" expanded="true" signature="7001:7186" ph="INSERT INTO Messages... " />
+                <marker date="1491672098076" expanded="true" signature="8316:8380" ph="SELECT * FRO... Messages" />
+                <marker date="1491672098076" expanded="true" signature="8899:8980" ph="SELECT * FRO... Messages" />
+                <marker date="1491672098076" expanded="true" signature="9493:9553" ph="SELECT * FRO... Messages" />
+                <marker date="1491672098076" expanded="true" signature="10022:10123" ph="SELECT * FRO... Messages" />
+                <marker date="1491672098076" expanded="true" signature="10064:10122" ph="SELECT Devic... CompanyDevices" />
+                <marker date="1491672098076" expanded="true" signature="10814:11064" ph="SELECT * FRO... Messages" />
+                <marker date="1491672098076" expanded="true" signature="10856:11063" ph="SELECT Devic... CompanyDevices" />
+                <marker date="1491672098076" expanded="true" signature="10912:11062" ph="SELECT Compa... CompanyUsers" />
+                <marker date="1491672098076" expanded="true" signature="10964:11061" ph="SELECT ID FR... Users" />
+                <marker date="1491672098076" expanded="true" signature="12014:12302" ph="SELECT * FRO... Messages" />
+                <marker date="1491672098076" expanded="true" signature="12094:12301" ph="SELECT Devic... CompanyDevices" />
+                <marker date="1491672098076" expanded="true" signature="12150:12300" ph="SELECT Compa... CompanyUsers" />
+                <marker date="1491672098076" expanded="true" signature="12202:12299" ph="SELECT ID FR... Users" />
+                <marker date="1491672098076" expanded="true" signature="13185:13473" ph="SELECT * FRO... Messages" />
+                <marker date="1491672098076" expanded="true" signature="13265:13472" ph="SELECT Devic... CompanyDevices" />
+                <marker date="1491672098076" expanded="true" signature="13321:13471" ph="SELECT Compa... CompanyUsers" />
+                <marker date="1491672098076" expanded="true" signature="13373:13470" ph="SELECT ID FR... Users" />
+                <marker date="1491672098076" expanded="true" signature="14170:14249" ph="SELECT * FRO... Messages" />
+                <marker date="1491672098076" expanded="true" signature="14784:14847" ph="DELETE FROM " />
+                <marker date="1491672098076" expanded="true" signature="15752:15838" ph="INSERT INTO Company... " />
+                <marker date="1491672098076" expanded="true" signature="16438:16532" ph="SELECT * FRO... Company" />
+                <marker date="1491672098076" expanded="true" signature="16473:16531" ph="SELECT Compa... CompanyDevices" />
+                <marker date="1491672098076" expanded="true" signature="17035:17221" ph="SELECT * FRO... Company" />
+                <marker date="1491672098076" expanded="true" signature="17070:17220" ph="SELECT Compa... CompanyUsers" />
+                <marker date="1491672098076" expanded="true" signature="17122:17219" ph="SELECT ID FR... Users" />
+                <marker date="1491672098076" expanded="true" signature="18238:18424" ph="SELECT * FRO... Company" />
+                <marker date="1491672098076" expanded="true" signature="18273:18423" ph="SELECT Compa... CompanyUsers" />
+                <marker date="1491672098076" expanded="true" signature="18325:18422" ph="SELECT ID FR... Users" />
+                <marker date="1491672098076" expanded="true" signature="19303:19489" ph="SELECT * FRO... Company" />
+                <marker date="1491672098076" expanded="true" signature="19338:19488" ph="SELECT Compa... CompanyUsers" />
+                <marker date="1491672098076" expanded="true" signature="19390:19487" ph="SELECT ID FR... Users" />
+                <marker date="1491672098076" expanded="true" signature="20206:20268" ph="INSERT INTO CompanyUsers... " />
+                <marker date="1491672098076" expanded="true" signature="20792:20871" ph="INSERT INTO UserCompanyRole... " />
+                <marker date="1491672098076" expanded="true" signature="21456:21570" ph="INSERT INTO Devices... " />
+                <marker date="1491672098076" expanded="true" signature="22265:22301" ph="SELECT * FRO... Devices" />
+                <marker date="1491672098076" expanded="true" signature="22775:23021" ph="SELECT * FRO... Devices" />
+                <marker date="1491672098076" expanded="true" signature="22810:23020" ph="SELECT Devic... CompanyDevices" />
+                <marker date="1491672098076" expanded="true" signature="22866:23019" ph="SELECT Compa... CompanyUsers" />
+                <marker date="1491672098076" expanded="true" signature="22918:23018" ph="SELECT ID FR... Users" />
+                <marker date="1491672098076" expanded="true" signature="23742:24012" ph="SELECT * FRO... Devices" />
+                <marker date="1491672098076" expanded="true" signature="23801:24011" ph="SELECT Devic... CompanyDevices" />
+                <marker date="1491672098076" expanded="true" signature="23857:24010" ph="SELECT Compa... CompanyUsers" />
+                <marker date="1491672098076" expanded="true" signature="23909:24009" ph="SELECT ID FR... Users" />
+                <marker date="1491672098076" expanded="true" signature="24769:24863" ph="SELECT * FRO... Devices" />
+                <marker date="1491672098076" expanded="true" signature="24804:24862" ph="SELECT Devic... CompanyDevices" />
+                <marker date="1491672098076" expanded="true" signature="25340:25409" ph="SELECT * FRO... Devices" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DB_Access.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Private/DB_Access.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="common.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Private/common.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="2" lean-forward="true" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="API.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Public/API.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="363">
+              <caret line="170" column="70" lean-forward="false" selection-start-line="170" selection-start-column="70" selection-end-line="170" selection-end-column="70" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -21,6 +120,8 @@
       <list>
         <option value="$PROJECT_DIR$/Private/common.php" />
         <option value="$PROJECT_DIR$/Public/index.php" />
+        <option value="$PROJECT_DIR$/Public/API.php" />
+        <option value="$PROJECT_DIR$/Private/DataBase.php" />
       </list>
     </option>
   </component>
@@ -52,7 +153,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -62,6 +162,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Negarit-GCME-php" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Public" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -79,9 +183,46 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Negarit-GCME-php" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Negarit-GCME-php" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Private" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Models" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Negarit-GCME-php" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Negarit-GCME-php" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Private" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DB Files" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -142,6 +283,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -183,33 +330,35 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1491587123385</updated>
-      <workItem from="1491587125141" duration="4569000" />
+      <workItem from="1491587125141" duration="10097000" />
+      <workItem from="1491665362259" duration="6730000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4569000" />
+    <option name="totallyTimeSpent" value="16827000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1604" height="876" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25712436" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21243523" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -235,111 +384,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="44" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="457" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Private/common.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="2" lean-forward="true" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Public/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Private/DB_Access.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Public/log.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Private/DataBase.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1491586060961" expanded="true" signature="1982:2110" ph="INSERT INTO Users... " />
-            <marker date="1491586060961" expanded="true" signature="2869:2965" ph="SELECT * FRO... Users" />
-            <marker date="1491586060961" expanded="true" signature="3603:3635" ph="SELECT * FRO... Users" />
-            <marker date="1491586060961" expanded="true" signature="4059:4244" ph="INSERT INTO Messages... " />
-            <marker date="1491586060961" expanded="true" signature="5408:5593" ph="INSERT INTO Messages... " />
-            <marker date="1491586060961" expanded="true" signature="6723:6787" ph="SELECT * FRO... Messages" />
-            <marker date="1491586060961" expanded="true" signature="7306:7387" ph="SELECT * FRO... Messages" />
-            <marker date="1491586060961" expanded="true" signature="7900:7960" ph="SELECT * FRO... Messages" />
-            <marker date="1491586060961" expanded="true" signature="8429:8530" ph="SELECT * FRO... Messages" />
-            <marker date="1491586060961" expanded="true" signature="8471:8529" ph="SELECT Devic... CompanyDevices" />
-            <marker date="1491586060961" expanded="true" signature="9221:9471" ph="SELECT * FRO... Messages" />
-            <marker date="1491586060961" expanded="true" signature="9263:9470" ph="SELECT Devic... CompanyDevices" />
-            <marker date="1491586060961" expanded="true" signature="9319:9469" ph="SELECT Compa... CompanyUsers" />
-            <marker date="1491586060961" expanded="true" signature="9371:9468" ph="SELECT ID FR... Users" />
-            <marker date="1491586060961" expanded="true" signature="10421:10709" ph="SELECT * FRO... Messages" />
-            <marker date="1491586060961" expanded="true" signature="10501:10708" ph="SELECT Devic... CompanyDevices" />
-            <marker date="1491586060961" expanded="true" signature="10557:10707" ph="SELECT Compa... CompanyUsers" />
-            <marker date="1491586060961" expanded="true" signature="10609:10706" ph="SELECT ID FR... Users" />
-            <marker date="1491586060961" expanded="true" signature="11592:11880" ph="SELECT * FRO... Messages" />
-            <marker date="1491586060961" expanded="true" signature="11672:11879" ph="SELECT Devic... CompanyDevices" />
-            <marker date="1491586060961" expanded="true" signature="11728:11878" ph="SELECT Compa... CompanyUsers" />
-            <marker date="1491586060961" expanded="true" signature="11780:11877" ph="SELECT ID FR... Users" />
-            <marker date="1491586060961" expanded="true" signature="12577:12656" ph="SELECT * FRO... Messages" />
-            <marker date="1491586060961" expanded="true" signature="13191:13254" ph="DELETE FROM " />
-            <marker date="1491586060961" expanded="true" signature="14159:14245" ph="INSERT INTO Company... " />
-            <marker date="1491586060961" expanded="true" signature="14845:14939" ph="SELECT * FRO... Company" />
-            <marker date="1491586060961" expanded="true" signature="14880:14938" ph="SELECT Compa... CompanyDevices" />
-            <marker date="1491586060961" expanded="true" signature="15442:15628" ph="SELECT * FRO... Company" />
-            <marker date="1491586060961" expanded="true" signature="15477:15627" ph="SELECT Compa... CompanyUsers" />
-            <marker date="1491586060961" expanded="true" signature="15529:15626" ph="SELECT ID FR... Users" />
-            <marker date="1491586060961" expanded="true" signature="16645:16831" ph="SELECT * FRO... Company" />
-            <marker date="1491586060961" expanded="true" signature="16680:16830" ph="SELECT Compa... CompanyUsers" />
-            <marker date="1491586060961" expanded="true" signature="16732:16829" ph="SELECT ID FR... Users" />
-            <marker date="1491586060961" expanded="true" signature="17710:17896" ph="SELECT * FRO... Company" />
-            <marker date="1491586060961" expanded="true" signature="17745:17895" ph="SELECT Compa... CompanyUsers" />
-            <marker date="1491586060961" expanded="true" signature="17797:17894" ph="SELECT ID FR... Users" />
-            <marker date="1491586060961" expanded="true" signature="18613:18675" ph="INSERT INTO CompanyUsers... " />
-            <marker date="1491586060961" expanded="true" signature="19199:19278" ph="INSERT INTO UserCompanyRole... " />
-            <marker date="1491586060961" expanded="true" signature="19863:19977" ph="INSERT INTO Devices... " />
-            <marker date="1491586060961" expanded="true" signature="20672:20708" ph="SELECT * FRO... Devices" />
-            <marker date="1491586060961" expanded="true" signature="21182:21428" ph="SELECT * FRO... Devices" />
-            <marker date="1491586060961" expanded="true" signature="21217:21427" ph="SELECT Devic... CompanyDevices" />
-            <marker date="1491586060961" expanded="true" signature="21273:21426" ph="SELECT Compa... CompanyUsers" />
-            <marker date="1491586060961" expanded="true" signature="21325:21425" ph="SELECT ID FR... Users" />
-            <marker date="1491586060961" expanded="true" signature="22149:22419" ph="SELECT * FRO... Devices" />
-            <marker date="1491586060961" expanded="true" signature="22208:22418" ph="SELECT Devic... CompanyDevices" />
-            <marker date="1491586060961" expanded="true" signature="22264:22417" ph="SELECT Compa... CompanyUsers" />
-            <marker date="1491586060961" expanded="true" signature="22316:22416" ph="SELECT ID FR... Users" />
-            <marker date="1491586060961" expanded="true" signature="23176:23270" ph="SELECT * FRO... Devices" />
-            <marker date="1491586060961" expanded="true" signature="23211:23269" ph="SELECT Devic... CompanyDevices" />
-            <marker date="1491586060961" expanded="true" signature="23747:23816" ph="SELECT * FRO... Devices" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Public/SyncAPI.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Public/API.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -363,11 +411,123 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="38" column="3" lean-forward="true" selection-start-line="38" selection-start-column="3" selection-end-line="38" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/log.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Public/ProcessAPI.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Private/Models/UserTable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Private/common.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="2" lean-forward="true" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Private/DB_Access.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/API.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="170" column="70" lean-forward="false" selection-start-line="170" selection-start-column="70" selection-end-line="170" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Private/DataBase.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="60" column="5" lean-forward="false" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
+          <folding>
+            <marker date="1491672098076" expanded="true" signature="1942:1993" ph="INSERT INTO contact... " />
+            <marker date="1491672098076" expanded="true" signature="1942:2008" ph="INSERT INTO contact... " />
+            <marker date="1491672098076" expanded="true" signature="2487:2520" ph="DELETE FROM " />
+            <marker date="1491672098076" expanded="true" signature="2487:2521" ph="DELETE FROM " />
+            <marker date="1491672098076" expanded="true" signature="2487:2522" ph="DELETE FROM " />
+            <marker date="1491672098076" expanded="true" signature="2993:3021" ph="DELETE FROM " />
+            <marker date="1491672098076" expanded="true" signature="3575:3703" ph="INSERT INTO Users... " />
+            <marker date="1491672098076" expanded="true" signature="4462:4558" ph="SELECT * FRO... Users" />
+            <marker date="1491672098076" expanded="true" signature="5196:5228" ph="SELECT * FRO... Users" />
+            <marker date="1491672098076" expanded="true" signature="5652:5837" ph="INSERT INTO Messages... " />
+            <marker date="1491672098076" expanded="true" signature="7001:7186" ph="INSERT INTO Messages... " />
+            <marker date="1491672098076" expanded="true" signature="8316:8380" ph="SELECT * FRO... Messages" />
+            <marker date="1491672098076" expanded="true" signature="8899:8980" ph="SELECT * FRO... Messages" />
+            <marker date="1491672098076" expanded="true" signature="9493:9553" ph="SELECT * FRO... Messages" />
+            <marker date="1491672098076" expanded="true" signature="10022:10123" ph="SELECT * FRO... Messages" />
+            <marker date="1491672098076" expanded="true" signature="10064:10122" ph="SELECT Devic... CompanyDevices" />
+            <marker date="1491672098076" expanded="true" signature="10814:11064" ph="SELECT * FRO... Messages" />
+            <marker date="1491672098076" expanded="true" signature="10856:11063" ph="SELECT Devic... CompanyDevices" />
+            <marker date="1491672098076" expanded="true" signature="10912:11062" ph="SELECT Compa... CompanyUsers" />
+            <marker date="1491672098076" expanded="true" signature="10964:11061" ph="SELECT ID FR... Users" />
+            <marker date="1491672098076" expanded="true" signature="12014:12302" ph="SELECT * FRO... Messages" />
+            <marker date="1491672098076" expanded="true" signature="12094:12301" ph="SELECT Devic... CompanyDevices" />
+            <marker date="1491672098076" expanded="true" signature="12150:12300" ph="SELECT Compa... CompanyUsers" />
+            <marker date="1491672098076" expanded="true" signature="12202:12299" ph="SELECT ID FR... Users" />
+            <marker date="1491672098076" expanded="true" signature="13185:13473" ph="SELECT * FRO... Messages" />
+            <marker date="1491672098076" expanded="true" signature="13265:13472" ph="SELECT Devic... CompanyDevices" />
+            <marker date="1491672098076" expanded="true" signature="13321:13471" ph="SELECT Compa... CompanyUsers" />
+            <marker date="1491672098076" expanded="true" signature="13373:13470" ph="SELECT ID FR... Users" />
+            <marker date="1491672098076" expanded="true" signature="14170:14249" ph="SELECT * FRO... Messages" />
+            <marker date="1491672098076" expanded="true" signature="14784:14847" ph="DELETE FROM " />
+            <marker date="1491672098076" expanded="true" signature="15752:15838" ph="INSERT INTO Company... " />
+            <marker date="1491672098076" expanded="true" signature="16438:16532" ph="SELECT * FRO... Company" />
+            <marker date="1491672098076" expanded="true" signature="16473:16531" ph="SELECT Compa... CompanyDevices" />
+            <marker date="1491672098076" expanded="true" signature="17035:17221" ph="SELECT * FRO... Company" />
+            <marker date="1491672098076" expanded="true" signature="17070:17220" ph="SELECT Compa... CompanyUsers" />
+            <marker date="1491672098076" expanded="true" signature="17122:17219" ph="SELECT ID FR... Users" />
+            <marker date="1491672098076" expanded="true" signature="18238:18424" ph="SELECT * FRO... Company" />
+            <marker date="1491672098076" expanded="true" signature="18273:18423" ph="SELECT Compa... CompanyUsers" />
+            <marker date="1491672098076" expanded="true" signature="18325:18422" ph="SELECT ID FR... Users" />
+            <marker date="1491672098076" expanded="true" signature="19303:19489" ph="SELECT * FRO... Company" />
+            <marker date="1491672098076" expanded="true" signature="19338:19488" ph="SELECT Compa... CompanyUsers" />
+            <marker date="1491672098076" expanded="true" signature="19390:19487" ph="SELECT ID FR... Users" />
+            <marker date="1491672098076" expanded="true" signature="20206:20268" ph="INSERT INTO CompanyUsers... " />
+            <marker date="1491672098076" expanded="true" signature="20792:20871" ph="INSERT INTO UserCompanyRole... " />
+            <marker date="1491672098076" expanded="true" signature="21456:21570" ph="INSERT INTO Devices... " />
+            <marker date="1491672098076" expanded="true" signature="22265:22301" ph="SELECT * FRO... Devices" />
+            <marker date="1491672098076" expanded="true" signature="22775:23021" ph="SELECT * FRO... Devices" />
+            <marker date="1491672098076" expanded="true" signature="22810:23020" ph="SELECT Devic... CompanyDevices" />
+            <marker date="1491672098076" expanded="true" signature="22866:23019" ph="SELECT Compa... CompanyUsers" />
+            <marker date="1491672098076" expanded="true" signature="22918:23018" ph="SELECT ID FR... Users" />
+            <marker date="1491672098076" expanded="true" signature="23742:24012" ph="SELECT * FRO... Devices" />
+            <marker date="1491672098076" expanded="true" signature="23801:24011" ph="SELECT Devic... CompanyDevices" />
+            <marker date="1491672098076" expanded="true" signature="23857:24010" ph="SELECT Compa... CompanyUsers" />
+            <marker date="1491672098076" expanded="true" signature="23909:24009" ph="SELECT ID FR... Users" />
+            <marker date="1491672098076" expanded="true" signature="24769:24863" ph="SELECT * FRO... Devices" />
+            <marker date="1491672098076" expanded="true" signature="24804:24862" ph="SELECT Devic... CompanyDevices" />
+            <marker date="1491672098076" expanded="true" signature="25340:25409" ph="SELECT * FRO... Devices" />
+          </folding>
         </state>
       </provider>
     </entry>
