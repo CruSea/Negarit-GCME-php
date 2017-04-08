@@ -8,11 +8,10 @@ abstract class userTable {
     const USER_FullName = 'userFullName';
     const USER_UPDATE = 'update';
 }
-abstract class companyTable {
+abstract class ContactTable {
     const ID = 'ID';
-    const NAME = 'Name';
-    const DESCRIPTION = 'Description';
-    const ISACTIVE = 'isActive';
+    const CONTACT_NO = 'NO';
+    const CONTACT_NAME = 'Name';
 }
 abstract class deviceTable {
     const ID = 'ID';
@@ -64,6 +63,52 @@ class DataBase{
 //        print_r("Exception found!! \n");
 //        print_r($exceptions);
     }
+ public function addcontact($data){
+
+     try {
+         $sql = "INSERT INTO Contact(CONTACT_NAME, CONTACT_NO) VALUES(:Cname, :Cno)";
+         $stmt = $this->connection->prepare($sql);
+         $stmt->bindvalue(':Cname', $data[ContactTable::CONTACT_NAME], PDO::PARAM_STR);
+         $stmt->bindvalue(':Cno', $data[ContactTable::CONTACT_NO], PDO::PARAM_STR);
+         $stmt->execute();
+         return $this->connection->lastInsertId();
+     } catch (PDOException $e) {
+         $this->logException($e);
+         return null;
+     }
+ }
+    public function deletecontact($data){
+        try {
+            $sql = "DELETE FROM Contact WHERE ID = :id ";
+            $stmt = $this->connection->prepare($sql);
+            $stmt->bindvalue(':id', $data[ContactTable::ID], PDO::PARAM_STR);
+            $stmt->execute();
+            if ($stmt->rowCount() > 0) {
+                return TRUE;
+            }
+            return FALSE;
+        } catch (PDOException $e) {
+            $this->logException($e);
+            return null;
+        }
+    }
+    public function updatecontact($data){
+        try {
+            $sql = "UPDATE FROM Contact WHERE ID = :id";
+            $stmt = $this->connection->prepare($sql);
+            $stmt->bindvalue(':id', $data[contactTable::ID], PDO::PARAM_STR);
+            $stmt->bindvalue(':Did', $data[messageTable::MESSAGE_DEVICE_ID], PDO::PARAM_STR);
+            $stmt->execute();
+            if ($stmt->rowCount() > 0) {
+                return TRUE;
+            }
+            return FALSE;
+        } catch (PDOException $e) {
+            $this->logException($e);
+            return null;
+        }
+    }
+
     public function addUser($data){
         try {
             $sql = "INSERT INTO Users(userName, userPass, userEmail, FullName, updatedDate) VALUES(:Uname, password(:Upass), :Uemai, :Ufull, :Uupda)";
