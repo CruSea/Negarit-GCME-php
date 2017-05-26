@@ -152,7 +152,7 @@ function processRequest($request){
                 }
 
             }else{
-                $api_Response[Response::REQUEST_ERROR] = "Invalid User Sign up Format";
+                   $api_Response[Response::REQUEST_ERROR] = "Invalid User Sign up Format";
             }
         }
     } elseif($myDatabase->checkUser($mainUser) != null){
@@ -164,86 +164,100 @@ function processRequest($request){
             $messages = array();
             $messages[Results::ALL_MESSAGES] = $myDatabase->getMessagesByUser($mainUser);
             $api_Response[Response::RESPONSE] = $messages;
-        }elseif ($request[ReqFormat::SERVICE] == Services::Get_Companies) {
-            $companies = array();
-            $companies[Results::All_COMPANIES] = $myDatabase->getCompaniesByUser($mainUser);
-            $api_Response[Response::RESPONSE] = $companies;
-        }elseif ($request[ReqFormat::SERVICE] == Services::Add_Contact){
-            $companies = array();
-            $companies[Results::All_COMPANIES] = $myDatabase->getCompaniesDevicesByUser($mainUser);
-            $api_Response[Response::RESPONSE] = $companies;
-        }elseif ($request[ReqFormat::SERVICE] == Services::Get_Companies_Devices){
-            $companies = array();
-            $companies[Results::All_COMPANIES] = $myDatabase->getCompaniesDevicesByUser($mainUser);
-            $api_Response[Response::RESPONSE] = $companies;
-        }elseif ($request[ReqFormat::SERVICE] == Services::Get_Devices){
-            $devices = array();
-            $devices[Results::All_DEVICES] = $myDatabase->getDevicesByUser($mainUser);
-            $api_Response[Response::RESPONSE] = $devices;
-        }elseif ($request[ReqFormat::SERVICE] == Services::Add_Message){
-            $params = json_decode($request[ReqFormat::PARAM], true);
-            if (is_array($params)) {
-                if(isset($params[messageTable::MESSAGE_CONTENT]) && isset($params[messageTable::MESSAGE_SENT_TO]) && isset($params[deviceTable::DEVICE_NAME])){
-                    $device = $myDatabase->getDeviceByUserDeviceName($mainUser,$params);
-                    if($device){
-                        $newMessage = array();
-                        $newMessage[messageTable::MESSAGE_CONTENT] = $params[messageTable::MESSAGE_CONTENT];
-                        $newMessage[messageTable::MESSAGE_FROM] = $device[deviceTable::DEVICE_PHONE];
-                        $newMessage[messageTable::MESSAGE_SENT_TO] = $params[messageTable::MESSAGE_SENT_TO];
-                        $newMessage[messageTable::MESSAGE_DEVICE_ID] = $device[deviceTable::ID];
-                        $newMessage[messageTable::MESSAGE_IS_OUTGOING] = 1;
-                        $newMessage[messageTable::MESSAGE_IS_DELIVERED] = 0;
-                        $newMessage[messageTable::MESSAGE_IS_DELIVERED] = 0;
-                        $newMessage[messageTable::MESSAGE_ID] = RandomString().'-'.RandomString().'-'.date('Ymd').date('His');
-                        $state = $myDatabase->addMessage($newMessage);
-                        if($state > 0){
-                            $AddedMessage = array();
-                            $AddedMessage[Results::ADDED_MESSAGES] = $newMessage;
-                            $api_Response[Response::RESPONSE] = $AddedMessage;
-                        }
-                    }
-                }else{
-                    $api_Response[Response::REQUEST_ERROR] = "Invalid param entries for add_messages service ".json_encode($params);
-                }
-            }else{
-                $api_Response[Response::REQUEST_ERROR] = "Invalid param for add_messages service";
-            }
-        }elseif ($request[ReqFormat::SERVICE] == Services::Delete_Message){
-            $params = json_decode($request[ReqFormat::PARAM], true);
-            if (is_array($params)) {
-                if(isset($params[messageTable::MESSAGE_ID]) && isset($params[deviceTable::DEVICE_NAME]) ){
-                    $device = $myDatabase->getDeviceByUserDeviceName($mainUser,$params);
-                    if($device){
-                        $deleteMessage = array();
-                        $deleteMessage[messageTable::MESSAGE_ID] = $params[messageTable::MESSAGE_ID];
-                        $deleteMessage[messageTable::MESSAGE_DEVICE_ID] = $device[deviceTable::ID];
-                        $state = $myDatabase->deleteMessageByMessageIDDeviceID($deleteMessage);
-                        if($state){
-                            $api_Response[Response::RESPONSE] = "Successfully Deleted";
-                        }else{
-                            $api_Response[Response::REQUEST_ERROR] = "Message Not Deleted";
-                        }
-                    }else{
-                        $api_Response[Response::REQUEST_ERROR] = "Wrong Device Name";
-                    }
-                }else{
-                    $api_Response[Response::REQUEST_ERROR] = "Invalid param entry for delete_message service";
-                }
-            }else{
-                $api_Response[Response::REQUEST_ERROR] = "Invalid param for delete_message service";
-            }
-        }else{
-            $api_Response[Response::REQUEST_ERROR] = "Unknown Service Request";
+        }elseif ($request[ReqFormat::SERVICE] == Services::Add_Contact) {
+            $contacts = array();
+            $contacts[Results::All_Contacts] = $myDatabase->addcontact($mainUser);
+            $api_Response[Response::RESPONSE] = $contacts;
         }
-    }else{
-        $api_Response[Response::RESPONSE] = "Invalid User Account";
-    }
-    return $api_Response;
-}
+        elseif ($request[ReqFormat::SERVICE] == Services::Delete_Contact) {
+            $params = json_decode($request[ReqFormat::PARAM], true);
+            if (is_array($params)) {
+                if (isset($params[ContactTable::ID])) {
+                    $device = $myDatabase->getDeviceByUserDeviceName($mainUser, $params);
+                }
 
-if(isset($_POST)){
-    echo json_encode(processAPI($_POST));
-}else{
-    echo  "Invalid API request Made";
-}
+                if ($state) {
+                            $api_Response[Response::RESPONSE] = "Successfully Deleted";
+                        } else {
+                            $api_Response[Response::REQUEST_ERROR] = "Contact Not Deleted";
+                       }
+                    }
+                } elseif ($request[ReqFormat::SERVICE] == Services::Get_Companies_Devices) {
+                        $companies = array();
+                        $companies[Results::All_COMPANIES] = $myDatabase->getCompaniesDevicesByUser($mainUser);
+                        $api_Response[Response::RESPONSE] = $companies;
+                    } elseif ($request[ReqFormat::SERVICE] == Services::Get_Companies_Devices) {
+                        $companies = array();
+                        $companies[Results::All_COMPANIES] = $myDatabase->getCompaniesDevicesByUser($mainUser);
+                        $api_Response[Response::RESPONSE] = $companies;
+                    } elseif ($request[ReqFormat::SERVICE] == Services::Get_Devices) {
+                        $devices = array();
+                        $devices[Results::All_DEVICES] = $myDatabase->getDevicesByUser($mainUser);
+                        $api_Response[Response::RESPONSE] = $devices;
+                    } elseif ($request[ReqFormat::SERVICE] == Services::Add_Message) {
+                        $params = json_decode($request[ReqFormat::PARAM], true);
+                        if (is_array($params)) {
+                            if (isset($params[messageTable::MESSAGE_CONTENT]) && isset($params[messageTable::MESSAGE_SENT_TO]) && isset($params[deviceTable::DEVICE_NAME])) {
+                                $device = $myDatabase->getDeviceByUserDeviceName($mainUser, $params);
+                                if ($device) {
+                                    $newMessage = array();
+                                    $newMessage[messageTable::MESSAGE_CONTENT] = $params[messageTable::MESSAGE_CONTENT];
+                                    $newMessage[messageTable::MESSAGE_FROM] = $device[deviceTable::DEVICE_PHONE];
+                                    $newMessage[messageTable::MESSAGE_SENT_TO] = $params[messageTable::MESSAGE_SENT_TO];
+                                    $newMessage[messageTable::MESSAGE_DEVICE_ID] = $device[deviceTable::ID];
+                                    $newMessage[messageTable::MESSAGE_IS_OUTGOING] = 1;
+                                    $newMessage[messageTable::MESSAGE_IS_DELIVERED] = 0;
+                                    $newMessage[messageTable::MESSAGE_IS_DELIVERED] = 0;
+                                    $newMessage[messageTable::MESSAGE_ID] = RandomString() . '-' . RandomString() . '-' . date('Ymd') . date('His');
+                                    $state = $myDatabase->addMessage($newMessage);
+                                    if ($state > 0) {
+                                        $AddedMessage = array();
+                                        $AddedMessage[Results::ADDED_MESSAGES] = $newMessage;
+                                        $api_Response[Response::RESPONSE] = $AddedMessage;
+                                    }
+                                }
+                            } else {
+                                $api_Response[Response::REQUEST_ERROR] = "Invalid param entries for add_messages service " . json_encode($params);
+                            }
+                        } else {
+                            $api_Response[Response::REQUEST_ERROR] = "Invalid param for add_messages service";
+                        }
+                    } elseif ($request[ReqFormat::SERVICE] == Services::Delete_Message) {
+                        $params = json_decode($request[ReqFormat::PARAM], true);
+                        if (is_array($params)) {
+                            if (isset($params[messageTable::MESSAGE_ID]) && isset($params[deviceTable::DEVICE_NAME])) {
+                                $device = $myDatabase->getDeviceByUserDeviceName($mainUser, $params);
+                                if ($device) {
+                                    $deleteMessage = array();
+                                    $deleteMessage[messageTable::MESSAGE_ID] = $params[messageTable::MESSAGE_ID];
+                                    $deleteMessage[messageTable::MESSAGE_DEVICE_ID] = $device[deviceTable::ID];
+                                    $state = $myDatabase->deleteMessageByMessageIDDeviceID($deleteMessage);
+                                    if ($state) {
+                                        $api_Response[Response::RESPONSE] = "Successfully Deleted";
+                                    } else {
+                                        $api_Response[Response::REQUEST_ERROR] = "Message Not Deleted";
+                                    }
+                                } else {
+                                    $api_Response[Response::REQUEST_ERROR] = "Wrong Device Name";
+                                }
+                            } else {
+                                $api_Response[Response::REQUEST_ERROR] = "Invalid param entry for delete_message service";
+                            }
+                        } else {
+                            $api_Response[Response::REQUEST_ERROR] = "Invalid param for delete_message service";
+                        }
+                    } else {
+                        $api_Response[Response::REQUEST_ERROR] = "Unknown Service Request";
+                    }
+                } else {
+                    $api_Response[Response::RESPONSE] = "Invalid User Account";
+                }
+                return $api_Response;
+            }
+
+            if (isset($_POST)) {
+                echo json_encode(processAPI($_POST));
+            } else {
+                echo "Invalid API request Made";
+            }
 

@@ -1,5 +1,13 @@
 <?php
 require_once "DB_Access.php";
+abstract class userSignUp {
+    const COMPANY_NAME = 'company_name';
+    const FULL_NAME = 'full_name';
+    const USER_NAME = 'user_name';
+    const User_EMAIL = 'user_email';
+    const USER_PASSWORD = 'user_pass';
+}
+
 abstract class userTable {
     const ID = 'userID';
     const USER_NAME = 'userName';
@@ -58,6 +66,8 @@ class DataBase{
         $this->database = new DB_Access();
         $this->connection = $this->database->getConnection();
         $this->connection->query("USE Negarit");
+
+
     }
     private function logException($exceptions){
 //        print_r("Exception found!! \n");
@@ -94,10 +104,11 @@ class DataBase{
     }
     public function updatecontact($data){
         try {
-            $sql = "UPDATE FROM Contact WHERE ID = :id";
+            $sql = "UPDATE* FROM Contact WHERE ID = :id AND CONTACT_NAME= :Cname AND CONTACT_NO= Cno";
             $stmt = $this->connection->prepare($sql);
-            $stmt->bindvalue(':id', $data[contactTable::ID], PDO::PARAM_STR);
-            $stmt->bindvalue(':Did', $data[messageTable::MESSAGE_DEVICE_ID], PDO::PARAM_STR);
+            $stmt->bindvalue(':id', $data[ContactTable::ID], PDO::PARAM_STR);
+            $stmt->bindvalue(':Cname', $data[ContactTable::CONTACT_NAME], PDO::PARAM_STR);
+            $stmt->bindvalue(':Cno', $data[ContactTable::CONTACT_NO], PDO::PARAM_STR);
             $stmt->execute();
             if ($stmt->rowCount() > 0) {
                 return TRUE;
@@ -362,12 +373,6 @@ class DataBase{
         $sms[sendingSMS::UUID] = $data[messageTable::MESSAGE_ID];
         return $sms;
     }
-
-
-
-
-    
-
 
     /// Company Table
 
